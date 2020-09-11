@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 引入信息框动画 -->
+    <script src="libs/scrollReveal/scrollreveal.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <!-- 引入图标库 -->
+    <link
+      rel="stylesheet"
+      href="https://at.alicdn.com/t/font_1809343_potr3hhfqz.css"
+    />
+    <!-- 引入glide.css -->
+    <link rel="stylesheet" href="libs/glide/glide.core.min.css" />
+    <link rel="stylesheet" href="libs/glide/glide.theme.min.css" />
+
+    <!-- 引入iso库 -->
+    <title>创新科技</title>
+  </head>
+  <body>
+    <!-- 头部 start -->
+    <header>
+      <div class="logo">创新科技</div>
+      <nav>
+        <a href="#home">首页</a>
+        <a href="#about-us">关于我们</a>
+        <a href="#showcases">成功案例</a>
+        <a href="#service">服务流程</a>
+        <a href="#team-info">团队介绍</a>
+        <a href="#company-activites">公司动态</a>
+        <i class="iconfont icon-search"></i>
+      </nav>
+      <div class="burger">
+        <div class="burger-line1"></div>
+        <div class="burger-line2"></div>
+        <div class="burger-line3"></div>
+      </div>
+    </header>
+    <!-- 头部 end -->
+    <!-- 轮播 start -->
+    <div class="glide" id="home">
+      <div class="glide__track" data-glide-el="track">
+        <div class="glide__slides">
+          <div class="glide__slide">
+            <div class="slide-caption">
+              <h1>用创新点缀人生，让科技融入理想</h1>
+              <h3>用创新点缀人生，让科技融入理想</h3>
+              <button class="explore-btn">搜索更多</button>
+            </div>
+            <div class="backdrop"></div>
+            <img src="images/people-in-couch-1024248.jpg" alt="" />
+          </div>
+          <div class="glide__slide">
+            <div class="slide-caption left">
+              <h1>用创新点缀人生，让科技融入理想</h1>
+              <h3>用创新点缀人生，让科技融入理想</h3>
+              <button class="explore-btn">搜索更多</button>
+            </div>
+            <div class="backdrop"></div>
+            <video src="videos/working-man.mp4" muted autoplay loop></video>
+          </div>
+        </div>
+        <!-- 左右两个按钮 -->
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+            <</button
+          ><button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+            >
+          </button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <button class="glide__bullet" data-glide-dir="0"></button>
+          <button class="glide__bullet" data-glide-dir="1"></button>
+        </div>
+      </div>
+    </div>
+    <!-- 轮播 end -->
+    <!-- 关于我们start -->
+    <div class="content-wrapper">
+      <!-- 关于我们 -->
+      <section class="about-us" id="about-us">
+        <h2 class="title1">关于我们</h2>
+        <p class="intro">
+          网络公司不仅仅提供域名注册、空间出租，网站开发，网站开发，网站建设与网络营销活动策划相关的企业组织。
+        </p>
+        <div class="features">
+          <div class="feature">
+            <i class="iconfont icon-chuangxin___"></i>
+            <h4 class="feature-title">品牌创意</h4>
+            <p class="feature-content">为企业设计别具一格的品牌</p>
+          </div>
+          <div class="feature">
+            <i class="iconfont icon-zhexian"></i>
+            <h4 class="feature-title">视觉营销</h4>
+            <p class="feature-content">为企业设计别具一格的视觉体验</p>
+          </div>
+          <div class="feature">
+            <i class="iconfont icon-gouwuche"></i>
+            <h4 class="feature-title">电子商务</h4>
+            <p class="feature-content">为企业设计别具一格的视觉体验</p>
+          </div>
+          <div class="feature">
+            <i class="iconfont icon-diannao"></i>
+            <h4 class="feature-title">网页设计</h4>
+            <p class="feature-content">为企业设计别具一格的视觉体验</p>
+          </div>
+          <div class="feature">
+            <i class="iconfont icon-zhinengyouhua"></i>
+            <h4 class="feature-title">网站优化</h4>
+            <p class="feature-content">为企业设计别具一格的视觉体验</p>
+          </div>
+          <div class="feature">
+            <i class="iconfont icon-mobankuangjia"></i>
+            <h4 class="feature-title">网站框架</h4>
+            <p class="feature-content">为企业设计别具一格的视觉体验</p>
+          </div>
+        </div>
+      </section>
+      <!-- 成功案例 -->
+      <section class="showcases section-bg" id="showcases">
+        <h2 class="title1">成功案例</h2>
+        <div class="filter-btns">
+          <button class="filter-btn active" data-filter="*">全部</button>
+          <button class="filter-btn" data-filter=".web">web</button>
+          <button class="filter-btn" data-filter=".mobile">移动</button>
+          <button class="filter-btn" data-filter=".science">科研</button>
+        </div>
+        <div class="cases">
+          <div class="case-item mobile">
+            <img src="images/photo-of-imac-near-macbook-1029757.jpg" />
+          </div>
+          <div class="case-item web science">
+            <img src="images/apple-laptop-notebook-office-39284.jpg" />
+          </div>
+          <div class="case-item web science">
+            <img
+              src="images/person-using-black-and-white-smartphone-and-holding-blue-230544.jpg"
+            />
+          </div>
+          <div class="case-item web mobile">
+            <img src="images/apple-apple-device-design-desk-285814.jpg" />
+          </div>
+          <div class="case-item science mobile">
+            <img
+              src="images/gray-laptop-computer-showing-html-codes-in-shallow-focus-160107.jpg"
+            />
+          </div>
+          <div class="case-item mobile">
+            <img src="images/person-holding-a-smartphone-892757.jpg" />
+          </div>
+          <div class="case-item web science">
+            <img src="images/blur-close-up-code-computer-546819.jpg" />
+          </div>
+          <div class="case-item science mobile">
+            <img
+              src="images/bokeh-photography-of-person-holding-turned-on-iphone-1440727.jpg"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- 服务流程 -->
+      <section class="service" id="service">
+        <h2 class="title1">服务流程</h2>
+        <p class="intro">
+          网络公司不仅仅提供域名注册、空间出租，网站开发，网站开发，网站建设与网络营销活动策划相关的企业组织。
+        </p>
+        <div class="services">
+          <div class="service-item">
+            <i class="iconfont icon-yiduiyigoutong"></i>
+            <h2 class="service-title">需求沟通</h2>
+            <p class="service-content">
+              客户提出网站建设的基本需求，包括设计要求及功能要求
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="iconfont icon-shiwu-chuizi"></i>
+            <h2 class="service-title">项目评估</h2>
+            <p class="service-content">
+              客户提出网站建设的基本需求，包括设计要求及功能要求
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="iconfont icon-qiandinghezuoxieyi"></i>
+            <h2 class="service-title">合同签订</h2>
+            <p class="service-content">
+              客户提出网站建设的基本需求，包括设计要求及功能要求
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="iconfont icon-jixiao"></i>
+            <h2 class="service-title">提案阶段</h2>
+            <p class="service-content">
+              客户提出网站建设的基本需求，包括设计要求及功能要求
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="iconfont icon-gongzuotai"></i>
+            <h2 class="service-title">制作阶段</h2>
+            <p class="service-content">
+              客户提出网站建设的基本需求，包括设计要求及功能要求
+            </p>
+          </div>
+          <div class="service-item">
+            <i class="iconfont icon-queren"></i>
+            <h2 class="service-title">网站验收</h2>
+            <p class="service-content">
+              客户提出网站建设的基本需求，包括设计要求及功能要求
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 团队成员 -->
+      <section class="team-info section-bg" id="team-info">
+        <h2 class="title1">团队介绍</h2>
+        <div class="team-members">
+          <div class="team-member">
+            <!-- 蒙板 -->
+            <div class="profile-image">
+              <img src="images/man-wearing-black-suit-2955376.jpg" alt="" />
+              <h4 class="name">钟子期</h4>
+              <p class="position">前端工程师</p>
+              <ul class="social-links">
+                <li>
+                  <a href="#"><i class="iconfont icon-weixin"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-weibo"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-github"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="team-member">
+            <!-- 蒙板 -->
+            <div class="profile-image">
+              <img src="images/business-woman-2697954_1920.jpg" alt="" />
+              <h4 class="name">钟子期</h4>
+              <p class="position">前端工程师</p>
+              <ul class="social-links">
+                <li>
+                  <a href="#"><i class="iconfont icon-weixin"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-weibo"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-github"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="team-member">
+            <!-- 蒙板 -->
+            <div class="profile-image">
+              <img
+                src="images/selective-focus-photograph-of-man-wearing-gray-suit-jacket-1138903.jpg"
+                alt=""
+              />
+              <h4 class="name">钟子期</h4>
+              <p class="position">前端工程师</p>
+              <ul class="social-links">
+                <li>
+                  <a href="#"><i class="iconfont icon-weixin"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-weibo"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-github"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="team-member">
+            <!-- 蒙板 -->
+            <div class="profile-image">
+              <img
+                src="images/smiling-woman-wearing-black-sweater-1587009.jpg"
+                alt=""
+              />
+              <h4 class="name">钟子期</h4>
+              <p class="position">前端工程师</p>
+              <ul class="social-links">
+                <li>
+                  <a href="#"><i class="iconfont icon-weixin"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-weibo"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-github"></i> </a>
+                </li>
+                <li>
+                  <a href="#"><i class="iconfont icon-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 数据区 -->
+      <section class="data-section">
+        <div class="data-piece">
+          <i class="iconfont icon-daima"></i>
+          <div class="num">156</div>
+          <div class="data-desc">行代码</div>
+        </div>
+        <div class="data-piece">
+          <i class="iconfont icon-w_jiangxiang"></i>
+          <div class="num">156</div>
+          <div class="data-desc">奖项</div>
+        </div>
+        <div class="data-piece">
+          <i class="iconfont icon-xiaolian-"></i>
+          <div class="num">156</div>
+          <div class="data-desc">顾客</div>
+        </div>
+        <div class="data-piece">
+          <i class="iconfont icon-dilanxianxingiconyihuifu_huabanfuben"></i>
+          <div class="num">156</div>
+          <div class="data-desc">项目</div>
+        </div>
+      </section>
+      <!-- 公司状态 -->
+      <section class="company-activites" id="company-activites">
+        <h2 class="title1">公司动态</h2>
+        <p class="intro">关注公司状态 第一时间获取一手资料</p>
+        <div class="activites">
+          <div class="activite">
+            <!-- 蒙板 -->
+            <div class="act-image-wrapper">
+              <img src="images/activity01-image.jpg" alt="" />
+            </div>
+            <!-- 评论 -->
+            <div class="meta">
+              <p class="date-published">
+                <i class="iconfont icon-riqi"></i> 2020年5月10日
+              </p>
+              <p class="comments">
+                <i class="iconfont icon-iconfontpinglun"></i>33条评论
+              </p>
+            </div>
+            <h2 class="act-title">
+              提供互联网接入的ISP公司
+            </h2>
+            <article>
+              ISP证，全称为互联网接入服务业务(ISP)，是第二类增值电信业务。根据国务院相关规定，从事增值电信业务，就需要办理相应的增值电信业务许可证，增值电信业务经营许可证是按照国务院《中华人民共和国电信条例》，由工信部、各省市通信管理局对从事增值电信业务的企业颁发的从业证明，否则就是无证经营。被查需要负法律责任。
+            </article>
+            <button class="readmore-btn">了解更多</button>
+          </div>
+          <div class="activite">
+            <!-- 蒙板 -->
+            <div class="act-image-wrapper">
+              <img src="images/watercrafts-on-river-3464632.jpg" alt="" />
+            </div>
+            <!-- 评论 -->
+            <div class="meta">
+              <p class="date-published">
+                <i class="iconfont icon-riqi"></i> 2020年5月10日
+              </p>
+              <p class="comments">
+                <i class="iconfont icon-iconfontpinglun"></i>33条评论
+              </p>
+            </div>
+            <h2 class="act-title">
+              提供互联网接入的ISP公司
+            </h2>
+            <article>
+              ISP证，全称为互联网接入服务业务(ISP)，是第二类增值电信业务。根据国务院相关规定，从事增值电信业务，就需要办理相应的增值电信业务许可证，增值电信业务经营许可证是按照国务院《中华人民共和国电信条例》，由工信部、各省市通信管理局对从事增值电信业务的企业颁发的从业证明，否则就是无证经营。被查需要负法律责任。
+            </article>
+            <button class="readmore-btn">了解更多</button>
+          </div>
+          <div class="activite">
+            <!-- 蒙板 -->
+            <div class="act-image-wrapper">
+              <img src="images/red-suspension-bridge-3493772.jpg" alt="" />
+            </div>
+            <!-- 评论 -->
+            <div class="meta">
+              <p class="date-published">
+                <i class="iconfont icon-riqi"></i> 2020年5月10日
+              </p>
+              <p class="comments">
+                <i class="iconfont icon-iconfontpinglun"></i>33条评论
+              </p>
+            </div>
+            <h2 class="act-title">
+              提供互联网接入的ISP公司
+            </h2>
+            <article>
+              ISP证，全称为互联网接入服务业务(ISP)，是第二类增值电信业务。根据国务院相关规定，从事增值电信业务，就需要办理相应的增值电信业务许可证，增值电信业务经营许可证是按照国务院《中华人民共和国电信条例》，由工信部、各省市通信管理局对从事增值电信业务的企业颁发的从业证明，否则就是无证经营。被查需要负法律责任。
+            </article>
+            <button class="readmore-btn">了解更多</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- 关于我们end -->
+    <!-- 底部 start -->
+    <footer>
+      <div class="footer-menus">
+        <div class="contact-us">
+          <p class="menu-title">联系我们</p>
+          <p>地址：</p>
+          <p>电话：</p>
+          <p>传真：</p>
+          <p>电子邮件：admin@abc.com</p>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">网站服务</p>
+          <ul class="menu-items">
+            <li><a href="#">网站建设</a></li>
+            <li><a href="#">域名购买</a></li>
+            <li><a href="#">网页设计</a></li>
+            <li><a href="#">移动应用</a></li>
+          </ul>
+        </div>
+        <div class="service-menu footer-menu">
+          <p class="menu-title">成功案例</p>
+          <ul class="menu-items">
+            <li><a href="#">桌面网站</a></li>
+            <li><a href="#">移动网站</a></li>
+            <li><a href="#">科研网站</a></li>
+            <li><a href="#">软件应用</a></li>
+          </ul>
+        </div>
+
+        <div class="service-menu footer-menu">
+          <p class="menu-title">公司动态</p>
+          <ul class="menu-items">
+            <li><a href="#">信息公开</a></li>
+            <li><a href="#">最近新闻</a></li>
+            <li><a href="#">最新博客</a></li>
+          </ul>
+        </div>
+
+        <div class="service-menu footer-menu">
+          <p class="menu-title">帮助与支持</p>
+          <ul class="menu-items">
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">联系客服</a></li>
+            <li><a href="#">文档资源</a></li>
+          </ul>
+        </div>
+        <p class="icp-info">湘ICP备19026630号-1</p>
+        <p class="rights">© 2020 创新科技有限公司</p>
+        <div class="scrollToTop">
+          <a href="#home"><i class="iconfont icon-arrowTop"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- 底部 end-->
+    <!-- 引入滚动库.js -->
+    <script src="libs/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <!-- 引入动画.js -->
+    <script src="libs/anime/anime.min.js"></script>
+    <!-- 引入iso库 -->
+    <script src="libs/isotope/isotope.pkgd.min.js"></script>
+    <!-- 引入glide.js文件 -->
+    <script src="libs/glide/glide.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
